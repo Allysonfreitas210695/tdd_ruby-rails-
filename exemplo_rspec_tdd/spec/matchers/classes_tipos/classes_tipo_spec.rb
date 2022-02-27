@@ -13,8 +13,8 @@ describe "Classes/tipos" do
   end
 
   it "be_an" do
-    expect("ruby").to respond_to(:count)
-    expect("ruby").to respond_to(:size)
+    # expect("ruby").to be_an(classe de heranca)
+    # expect("ruby").to respond_to(classe de herança)
   end
 
 end
