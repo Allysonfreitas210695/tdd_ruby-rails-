@@ -14,7 +14,7 @@ describe "Classes/tipos" do
 
   it "be_an" do
     # expect("ruby").to be_an(classe de heranca)
-    # expect("ruby").to respond_to(classe de herança)
+    # expect("ruby").to be_a(classe de herança)
   end
 
 end

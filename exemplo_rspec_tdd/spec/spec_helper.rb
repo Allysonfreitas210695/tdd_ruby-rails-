@@ -19,6 +19,24 @@ RSpec.configure do |config|
 
   config.include Helper
 
+  # config.before(:suite) do
+  #   puts "********** Antes **************"
+  # end
+  #
+  # config.before(:suite) do
+  #   puts "********** Antes de todos**************"
+  # end
+  #
+  # config.after(:suite) do
+  #   puts "********** Depois **************"
+  # end
+  #
+  # config.after(:all) do
+  #   puts "********** Depois de todos **************"
+  # end
+
+
+
   # rspec-expectations config goes here. You can use an alternate
   # assertion/expectation library such as wrong or the stdlib/minitest
   # assertions if you prefer.
