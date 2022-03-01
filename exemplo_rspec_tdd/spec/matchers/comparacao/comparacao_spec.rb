@@ -29,4 +29,11 @@ describe 'Matchers de Comparaçao' do
     expect(x).to eq(y)
   end
 
+
+  it "be_between inclusive / falhas agregadas" do
+    expect(5).to be_between(2,7).inclusive
+    expect(1).to be_between(2,7).inclusive
+    expect(8).to be_between(2,7).inclusive
+  end
+
 end

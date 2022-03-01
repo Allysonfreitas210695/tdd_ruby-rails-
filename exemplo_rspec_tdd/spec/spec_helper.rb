@@ -19,6 +19,9 @@ RSpec.configure do |config|
 
   config.include Helper
 
+  config.define_derived_metadata do |meta|
+    meta[:aggregate_failures] = true
+  end
   # config.before(:suite) do
   #   puts "********** Antes **************"
   # end
